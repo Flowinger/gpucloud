@@ -11,7 +11,7 @@ https://cloud.google.com/sdk/
 
 		gcloud init  
 
-4. Request limit increase: 
+4. Request limit increase for instances  
 5. Put in number of GPUs & CPUs, Size:  
 https://console.cloud.google.com/compute/quotas?hl=de&_ga=1.69181649.1124953923.1496188820  
 
