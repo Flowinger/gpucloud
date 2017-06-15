@@ -145,7 +145,19 @@ https://console.cloud.google.com/compute/quotas?hl=de&_ga=1.69181649.1124953923.
 		
 ![GPU10](images/GPU_10.png) 
 
-		
+
+### Sources / Appendix
+
+https://medium.com/google-cloud/running-jupyter-notebooks-on-gpu-on-google-cloud-d44f57d22dbd  
+https://cloud.google.com/compute/docs/gpus/add-gpus?hl=de#install-driver-manual  
+https://cloud.google.com/compute/docs/gcloud-compute/?hl=de  
+
+- One line code to create GPU instance:
+
+		gcloud beta compute instances create gpu-inst1 --machine-type n1-standard-2 --zone us-west1-b --accelerator type=nvidia-tesla-k80, count=1 --image-family ubuntu-1604-lts --image-project ubuntu-os-cloud --boot-disk-size 30GB --maintenance-policy TERMINATE --restart-on-failure
+
+
+
 
 		
 
