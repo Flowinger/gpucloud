@@ -3,7 +3,10 @@ Instructions for setting up a GPU instance on Google Cloud
 
 1. Install Google Cloud SDK on your laptop:  
 https://cloud.google.com/sdk/
-2. Install file by executing the following in the terminal -> ./google-cloud-sdk/install.sh
+2. Install file by executing the following in the terminal:  
+
+		./google-cloud-sdk/install.sh  
+	
 3. Initialize gcloud in terminal (https://cloud.google.com/compute/docs/gcloud-compute/?hl=de):  
 
 		gcloud init  
