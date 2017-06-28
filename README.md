@@ -51,7 +51,8 @@ https://console.cloud.google.com/compute/quotas?hl=de&_ga=1.69181649.1124953923.
 
 15. Install GPU drivers: 
 
-		curl –O http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_8.0.61-1_amd64.deb  
+		wget https://developer.nvidia.com/compute/cuda/8.0/Prod2/local_installers/cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64-deb
+		mv cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64-deb cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb
 		sudo dpkg -i cuda-repo-ubuntu1604_8.0.61-1_amd64.deb  
 		sudo apt-get update  
 		sudo apt-get install cuda -y  
