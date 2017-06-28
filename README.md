@@ -124,7 +124,7 @@ https://console.cloud.google.com/compute/quotas?hl=de&_ga=1.69181649.1124953923.
 		
 23. Create SSH tunnel:  
 
-		ssh -i ~/.ssh/google_compute_engine -L 8899:localhost:8888 USERNAME@35.197.12.149
+		ssh -i ~/.ssh/google_compute_engine -L 8899:localhost:8888 USERNAME@IPADDRESS
 		jupyter notebook  
 		
 		
